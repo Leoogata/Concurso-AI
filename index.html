@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Trilha gratuita e plano de estudos para o concurso de Escrevente Técnico Judiciário do TJSP.">
+    <meta name="theme-color" content="#0E2A55">
+    <title>Concurso AI | Escrevente TJSP</title>
+    <link rel="stylesheet" href="./frontend/styles.css">
+    <script type="module" src="./frontend/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#visao-geral" aria-label="Concurso AI, visão geral">
+          <span class="brand-mark" data-icon="book"></span>
+          <span>Concurso <strong>AI</strong></span>
+        </a>
+        <nav class="navigation" aria-label="Navegação principal">
+          <a href="#visao-geral" data-route="visao-geral">Visão geral</a>
+          <a href="#trilha" data-route="trilha">Trilha de estudos</a>
+          <a href="#provas" data-route="provas">Provas anteriores</a>
+          <a class="nav-plan" href="#meu-plano" data-route="meu-plano"><span data-icon="calendar"></span>Meu plano</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container main" id="conteudo" tabindex="-1">
+      <noscript>Ative o JavaScript no navegador para acessar a trilha e montar seu plano de estudos.</noscript>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>Concurso AI</strong>
+          <p>Prévia do MVP com atividades e materiais de exemplo.</p>
+        </div>
+        <a href="https://www.vunesp.com.br/TJSP2607" target="_blank" rel="noopener">Página oficial na Vunesp <span data-icon="external"></span><span class="sr-only"> (abre em nova aba)</span></a>
+      </div>
+    </footer>
+    <dialog id="availability-dialog" aria-labelledby="availability-title"></dialog>
+    <dialog id="activity-dialog" aria-labelledby="activity-title"></dialog>
+    <div id="announcement" class="sr-only" role="status"></div>
+  </body>
+</html>
